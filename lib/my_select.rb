@@ -1,3 +1,10 @@
 def my_select(collection)
- # your code here!
+  ary=[]
+  i = 0
+  while i < collection.length
+  if collection[i] == true
+    ary << collection[i]
+    i+=1
+  end
+    ary
 end
